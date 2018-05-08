@@ -1,0 +1,42 @@
+<div class="vd_content clearfix" ng-controller="PresenterCtrl">
+  <div class="vd_content-section clearfix pd-0">
+    <div class="row">
+      <div class="col-md-12 pd-0">
+        <div class="panel widget light-widget panel-bd-top">
+          <div class="panel-heading no-title"></div>
+          <div class="panel-body">
+            <h3 class="mgtp--5"> Speakers</h3>
+
+            <div class="content-list content-blog-small">
+              <ul class="list-wrapper">
+                <li ng-repeat="p in presenters">
+                  <div class="menu-icon"><img src="{{p.imageUrl}}"></div>
+                  <div class="menu-text">
+                    <h2 class="blog-title font-bold letter-xs"><a> {{p.name}}</a></h2>
+
+                    <div class="menu-info">
+                      <div class="menu-date font-xs">
+                        <i class="icon-clock"></i> {{p.timeSlot}} -
+                        <i class="fa fa-globe"></i> {{p.roomNumber}}
+                      </div>
+                    </div>
+                    <div class="menu-tags  mgbt-xs-15">
+                      <label class="menu-date font-xs"> presenting -  </label>
+                      <a>
+                        <span class="label vd_bg-yellow">{{p.sessionName}}</span>
+                      </a>
+                    </div>
+                    <p>{{p.sessionDescription}}</p>
+                      <a class="btn vd_btn vd_bg-green btn-sm" ng-if="p.registered === false " data-ng-click="registerSession(p)">Register</a>
+                      <a class="btn vd_btn vd_bg-red btn-sm" ng-if="p.registered === true " data-ng-click="unRegisterSession(p)">Un-Register</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

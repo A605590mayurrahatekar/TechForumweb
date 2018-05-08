@@ -1,0 +1,51 @@
+<div class="vd_content-section clearfix pd-0">
+    <div class="vd_title-section clearfix pd-0">
+        <div class="col-md-offset-3 col-sm-offset-2 col-md-6 col-sm-8 pd-0">
+            <div class="panel">
+                <div class="panel-body bg-atos-color radius-10 login-layout">
+                    <div class="login-icon entypo-icon vd_bg-green"><i class="icon-key"></i></div>
+                    <ng-form role="form" name="loginForm"class="form-horizontal" novalidate>
+                        <div class="row">
+                            <fieldset>
+                            <div class="col-md-12 mgbt-xs-10 ">
+                                <div class="controls">
+                                    <input id="contact-form-dasid" ng-model="dasId" name="contact-form-name" required placeholder="DAS ID" class="radius-10" type="text"
+                                    ng-blur="searchUserDetails()" >
+                                </div>
+                            </div>
+                            <div class="col-md-12 mgbt-xs-10">
+                                <div class="controls">
+                                    <input id="contact-form-fname" data-ng-disabled="dasIdNotSearched" ng-model="firstName" name="contact-form-email"  required placeholder="First Name" class="radius-10" type="text">
+                                </div>
+                            </div>
+                            <div class="col-md-12 mgbt-xs-10">
+                                <div class="controls">
+                                    <input id="contact-form-lname" data-ng-disabled="dasIdNotSearched"  ng-model="lastName" name="contact-form-email" required placeholder="Last Name" class="radius-10" type="text">
+                                </div>
+                            </div>
+                            <div class="col-md-12 mgbt-xs-10">
+                                <div class="controls">
+                                    <input id="contact-form-location" data-ng-disabled="dasIdNotSearched" ng-model="location" name="contact-form-email" required placeholder="Location" class="radius-10" type="text">
+                                </div>
+                            </div>
+                                <div class="col-md-12 mgbt-xs-10">
+                                    <div class="controls">
+                                        <input id="contact-form-passwd" ng-model="password" name="contact-form-password" required placeholder="DAS Password" class="radius-10" type="password">
+                                    </div>
+                                </div>
+                            </fieldset>
+
+                            <div class="col-md-12 mgbt-xs-10 text-center">
+                                <button data-ng-disabled="loginForm.$invalid" class="btn vd_btn vd_btn-bevel vd_bg-twitter font-semibold" id="contact-form-submit" name="contact-form-submit" data-ng-click="login()">
+                                    <i class="append-icon fa fa-sign-in"></i>Login
+                                </button>
+                            </div>
+                        </div>
+                    </ng-form>
+                </div>
+                <!-- panel-body -->
+            </div>
+            <!-- panel -->
+        </div>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+applications:
+- name: odc-techforum
+  memory: 512M
+  instances: 1
+  no-route: false
+  command: node server.js
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  stack: cflinuxfs2

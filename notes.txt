@@ -1,0 +1,19 @@
+mkdir "%ANDROID_HOME%\licenses"
+echo |set /p="8933bad161af4178b1185d1a37fbf41ea5269c55" > "%ANDROID_HOME%\licenses\android-sdk-license"
+
+set ANDROID_HOME=C:\software\Android\sdk\tools_r25.2.5-windows
+
+cordova plugin rm cordova-plugin-console
+
+cordova build --release android
+
+"%JAVA_HOME%/bin/keytool" -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+
+"%JAVA_HOME%/bin/jarsigner" -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore platforms/android/build/outputs/apk/android-release-unsigned.apk alias_name
+Activa@8892
+
+del .\dist\odctechforum.apk
+
+zipalign -v 4 platforms/android/build/outputs/apk/android-release-unsigned.apk ./dist/odctechforum.apk
+
+%ANDROID_HOME%/build-tools/26.0.0/zipalign -v 4 platforms/android/build/outputs/apk/android-release-unsigned.apk ./dist/odctechforum.apk

@@ -1,0 +1,2514 @@
+[
+  {
+    "id": 1,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 1,
+    "questionOptions": [
+      {
+        "optionId": 1,
+        "value": "Poor"
+      },
+      {
+        "optionId": 2,
+        "value": "Ok"
+      },
+      {
+        "optionId": 3,
+        "value": "Good"
+      },
+      {
+        "optionId": 4,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Atos Intelligent Automation Platform (AIAP)"
+  },
+  {
+    "id": 2,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "To what extent do you think you can apply the information presented in the session?",
+    "sessionId": 1,
+    "questionOptions": [
+      {
+        "optionId": 5,
+        "value": "No"
+      },
+      {
+        "optionId": 6,
+        "value": "May be"
+      },
+      {
+        "optionId": 7,
+        "value": "Yes"
+      },
+      {
+        "optionId": 8,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "Atos Intelligent Automation Platform (AIAP)"
+  },
+  {
+    "id": 3,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 1,
+    "questionOptions": [
+      {
+        "optionId": 9,
+        "value": "Poor"
+      },
+      {
+        "optionId": 10,
+        "value": "Ok"
+      },
+      {
+        "optionId": 11,
+        "value": "Good"
+      },
+      {
+        "optionId": 12,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Atos Intelligent Automation Platform (AIAP)"
+  },
+  {
+    "id": 4,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 1,
+    "questionOptions": [
+      {
+        "optionId": 13,
+        "value": "Poor"
+      },
+      {
+        "optionId": 14,
+        "value": "Ok"
+      },
+      {
+        "optionId": 15,
+        "value": "Good"
+      },
+      {
+        "optionId": 16,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Atos Intelligent Automation Platform (AIAP)"
+  },
+  {
+    "id": 1000,
+    "feedback": false,
+    "session": null,
+    "options": [],
+    "correctOption": 1011,
+    "description": "What is Deep learning framework from Google?",
+    "sessionId": 1,
+    "questionOptions": [
+      {
+        "optionId": 1009,
+        "value": "Kubernetes"
+      },
+      {
+        "optionId": 1010,
+        "value": "Angular"
+      },
+      {
+        "optionId": 1011,
+        "value": "Tensorflow"
+      }
+    ],
+    "sessionName": "Atos Intelligent Automation Platform (AIAP)"
+  },
+  {
+    "id": 5,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 2,
+    "questionOptions": [
+      {
+        "optionId": 17,
+        "value": "Poor"
+      },
+      {
+        "optionId": 18,
+        "value": "Ok"
+      },
+      {
+        "optionId": 19,
+        "value": "Good"
+      },
+      {
+        "optionId": 20,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Functional Programming"
+  },
+  {
+    "id": 6,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 2,
+    "questionOptions": [
+      {
+        "optionId": 21,
+        "value": "No"
+      },
+      {
+        "optionId": 22,
+        "value": "May be"
+      },
+      {
+        "optionId": 23,
+        "value": "Yes"
+      },
+      {
+        "optionId": 24,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "Functional Programming"
+  },
+  {
+    "id": 7,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 2,
+    "questionOptions": [
+      {
+        "optionId": 25,
+        "value": "Poor"
+      },
+      {
+        "optionId": 26,
+        "value": "Ok"
+      },
+      {
+        "optionId": 27,
+        "value": "Good"
+      },
+      {
+        "optionId": 28,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Functional Programming"
+  },
+  {
+    "id": 8,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 2,
+    "questionOptions": [
+      {
+        "optionId": 29,
+        "value": "Poor"
+      },
+      {
+        "optionId": 30,
+        "value": "Ok"
+      },
+      {
+        "optionId": 31,
+        "value": "Good"
+      },
+      {
+        "optionId": 32,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Functional Programming"
+  },
+  {
+    "id": 1007,
+    "feedback": false,
+    "session": null,
+    "options": [],
+    "correctOption": 1036,
+    "description": "What differentiates a class in Angular 2?",
+    "sessionId": 2,
+    "questionOptions": [
+      {
+        "optionId": 1034,
+        "value": "Module"
+      },
+      {
+        "optionId": 1035,
+        "value": "Decorator"
+      },
+      {
+        "optionId": 1036,
+        "value": "Component"
+      }
+    ],
+    "sessionName": "Functional Programming"
+  },
+  {
+    "id": 9,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 3,
+    "questionOptions": [
+      {
+        "optionId": 33,
+        "value": "Poor"
+      },
+      {
+        "optionId": 34,
+        "value": "Ok"
+      },
+      {
+        "optionId": 35,
+        "value": "Good"
+      },
+      {
+        "optionId": 36,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Introduction to Chatbots"
+  },
+  {
+    "id": 10,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 3,
+    "questionOptions": [
+      {
+        "optionId": 37,
+        "value": "No"
+      },
+      {
+        "optionId": 38,
+        "value": "May be"
+      },
+      {
+        "optionId": 39,
+        "value": "Yes"
+      },
+      {
+        "optionId": 40,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "Introduction to Chatbots"
+  },
+  {
+    "id": 11,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 3,
+    "questionOptions": [
+      {
+        "optionId": 41,
+        "value": "Poor"
+      },
+      {
+        "optionId": 42,
+        "value": "Ok"
+      },
+      {
+        "optionId": 43,
+        "value": "Good"
+      },
+      {
+        "optionId": 44,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Introduction to Chatbots"
+  },
+  {
+    "id": 12,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 3,
+    "questionOptions": [
+      {
+        "optionId": 45,
+        "value": "Poor"
+      },
+      {
+        "optionId": 46,
+        "value": "Ok"
+      },
+      {
+        "optionId": 47,
+        "value": "Good"
+      },
+      {
+        "optionId": 48,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Introduction to Chatbots"
+  },
+  {
+    "id": 1002,
+    "feedback": false,
+    "session": null,
+    "options": [],
+    "correctOption": 1001,
+    "description": "Which one of the following Virtual Reality headset is by Google?",
+    "sessionId": 3,
+    "questionOptions": [
+      {
+        "optionId": 1000,
+        "value": "Google Deck"
+      },
+      {
+        "optionId": 1001,
+        "value": "Google Cardboard"
+      },
+      {
+        "optionId": 1002,
+        "value": "Google Gear"
+      },
+      {
+        "optionId": 1003,
+        "value": "Google Vive"
+      }
+    ],
+    "sessionName": "Introduction to Chatbots"
+  },
+  {
+    "id": 13,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 4,
+    "questionOptions": [
+      {
+        "optionId": 49,
+        "value": "Poor"
+      },
+      {
+        "optionId": 50,
+        "value": "Ok"
+      },
+      {
+        "optionId": 51,
+        "value": "Good"
+      },
+      {
+        "optionId": 52,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "The UFT Runtime Engine is a slimmer installation of UFT that enables you to run UFT tests without the entire UFT IDE."
+  },
+  {
+    "id": 14,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 4,
+    "questionOptions": [
+      {
+        "optionId": 53,
+        "value": "No"
+      },
+      {
+        "optionId": 54,
+        "value": "May be"
+      },
+      {
+        "optionId": 55,
+        "value": "Yes"
+      },
+      {
+        "optionId": 56,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "The UFT Runtime Engine is a slimmer installation of UFT that enables you to run UFT tests without the entire UFT IDE."
+  },
+  {
+    "id": 15,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 4,
+    "questionOptions": [
+      {
+        "optionId": 57,
+        "value": "Poor"
+      },
+      {
+        "optionId": 58,
+        "value": "Ok"
+      },
+      {
+        "optionId": 59,
+        "value": "Good"
+      },
+      {
+        "optionId": 60,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "The UFT Runtime Engine is a slimmer installation of UFT that enables you to run UFT tests without the entire UFT IDE."
+  },
+  {
+    "id": 16,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 4,
+    "questionOptions": [
+      {
+        "optionId": 61,
+        "value": "Poor"
+      },
+      {
+        "optionId": 62,
+        "value": "Ok"
+      },
+      {
+        "optionId": 63,
+        "value": "Good"
+      },
+      {
+        "optionId": 64,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "The UFT Runtime Engine is a slimmer installation of UFT that enables you to run UFT tests without the entire UFT IDE."
+  },
+  {
+    "id": 1003,
+    "feedback": false,
+    "session": null,
+    "options": [],
+    "correctOption": 1026,
+    "description": "Requirement Analysis is not part of Business value driven QA projects",
+    "sessionId": 4,
+    "questionOptions": [
+      {
+        "optionId": 1025,
+        "value": "false "
+      },
+      {
+        "optionId": 1026,
+        "value": "true"
+      }
+    ],
+    "sessionName": "The UFT Runtime Engine is a slimmer installation of UFT that enables you to run UFT tests without the entire UFT IDE."
+  },
+  {
+    "id": 17,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 5,
+    "questionOptions": [
+      {
+        "optionId": 65,
+        "value": "Poor"
+      },
+      {
+        "optionId": 66,
+        "value": "Ok"
+      },
+      {
+        "optionId": 67,
+        "value": "Good"
+      },
+      {
+        "optionId": 68,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Analytics of Things (AoT)"
+  },
+  {
+    "id": 18,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 5,
+    "questionOptions": [
+      {
+        "optionId": 69,
+        "value": "No"
+      },
+      {
+        "optionId": 70,
+        "value": "May be"
+      },
+      {
+        "optionId": 71,
+        "value": "Yes"
+      },
+      {
+        "optionId": 72,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "Analytics of Things (AoT)"
+  },
+  {
+    "id": 19,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 5,
+    "questionOptions": [
+      {
+        "optionId": 73,
+        "value": "Poor"
+      },
+      {
+        "optionId": 74,
+        "value": "Ok"
+      },
+      {
+        "optionId": 75,
+        "value": "Good"
+      },
+      {
+        "optionId": 76,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Analytics of Things (AoT)"
+  },
+  {
+    "id": 20,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 5,
+    "questionOptions": [
+      {
+        "optionId": 77,
+        "value": "Poor"
+      },
+      {
+        "optionId": 78,
+        "value": "Ok"
+      },
+      {
+        "optionId": 79,
+        "value": "Good"
+      },
+      {
+        "optionId": 80,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Analytics of Things (AoT)"
+  },
+  {
+    "id": 1004,
+    "feedback": false,
+    "session": null,
+    "options": [],
+    "correctOption": 1028,
+    "description": "Is it better to deliver with high quality but be slightly late?",
+    "sessionId": 5,
+    "questionOptions": [
+      {
+        "optionId": 1028,
+        "value": "no"
+      },
+      {
+        "optionId": 1029,
+        "value": "yes"
+      }
+    ],
+    "sessionName": "Analytics of Things (AoT)"
+  },
+  {
+    "id": 21,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 6,
+    "questionOptions": [
+      {
+        "optionId": 81,
+        "value": "Poor"
+      },
+      {
+        "optionId": 82,
+        "value": "Ok"
+      },
+      {
+        "optionId": 83,
+        "value": "Good"
+      },
+      {
+        "optionId": 84,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Going Reactive with Spring WebFlux Framework"
+  },
+  {
+    "id": 22,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 6,
+    "questionOptions": [
+      {
+        "optionId": 85,
+        "value": "No"
+      },
+      {
+        "optionId": 86,
+        "value": "May be"
+      },
+      {
+        "optionId": 87,
+        "value": "Yes"
+      },
+      {
+        "optionId": 88,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "Going Reactive with Spring WebFlux Framework"
+  },
+  {
+    "id": 23,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 6,
+    "questionOptions": [
+      {
+        "optionId": 89,
+        "value": "Poor"
+      },
+      {
+        "optionId": 90,
+        "value": "Ok"
+      },
+      {
+        "optionId": 91,
+        "value": "Good"
+      },
+      {
+        "optionId": 92,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Going Reactive with Spring WebFlux Framework"
+  },
+  {
+    "id": 24,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 6,
+    "questionOptions": [
+      {
+        "optionId": 93,
+        "value": "Poor"
+      },
+      {
+        "optionId": 94,
+        "value": "Ok"
+      },
+      {
+        "optionId": 95,
+        "value": "Good"
+      },
+      {
+        "optionId": 96,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Going Reactive with Spring WebFlux Framework"
+  },
+  {
+    "id": 25,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 7,
+    "questionOptions": [
+      {
+        "optionId": 97,
+        "value": "Poor"
+      },
+      {
+        "optionId": 98,
+        "value": "Ok"
+      },
+      {
+        "optionId": 99,
+        "value": "Good"
+      },
+      {
+        "optionId": 100,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Digital Twins"
+  },
+  {
+    "id": 26,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 7,
+    "questionOptions": [
+      {
+        "optionId": 101,
+        "value": "No"
+      },
+      {
+        "optionId": 102,
+        "value": "May be"
+      },
+      {
+        "optionId": 103,
+        "value": "Yes"
+      },
+      {
+        "optionId": 104,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "Digital Twins"
+  },
+  {
+    "id": 27,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 7,
+    "questionOptions": [
+      {
+        "optionId": 105,
+        "value": "Poor"
+      },
+      {
+        "optionId": 106,
+        "value": "Ok"
+      },
+      {
+        "optionId": 107,
+        "value": "Good"
+      },
+      {
+        "optionId": 108,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Digital Twins"
+  },
+  {
+    "id": 28,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 7,
+    "questionOptions": [
+      {
+        "optionId": 109,
+        "value": "Poor"
+      },
+      {
+        "optionId": 110,
+        "value": "Ok"
+      },
+      {
+        "optionId": 111,
+        "value": "Good"
+      },
+      {
+        "optionId": 112,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Digital Twins"
+  },
+  {
+    "id": 1006,
+    "feedback": false,
+    "session": null,
+    "options": [],
+    "correctOption": 1033,
+    "description": "Currently we are into?",
+    "sessionId": 7,
+    "questionOptions": [
+      {
+        "optionId": 1031,
+        "value": "Third Industrial Revolution"
+      },
+      {
+        "optionId": 1032,
+        "value": "Fifth Industrial Revolution"
+      },
+      {
+        "optionId": 1033,
+        "value": "Fourth Industrial Revolution"
+      }
+    ],
+    "sessionName": "Digital Twins"
+  },
+  {
+    "id": 29,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 9,
+    "questionOptions": [
+      {
+        "optionId": 113,
+        "value": "Poor"
+      },
+      {
+        "optionId": 114,
+        "value": "Ok"
+      },
+      {
+        "optionId": 115,
+        "value": "Good"
+      },
+      {
+        "optionId": 116,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Improving IoT - A BlockChain Approach"
+  },
+  {
+    "id": 30,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 9,
+    "questionOptions": [
+      {
+        "optionId": 117,
+        "value": "No"
+      },
+      {
+        "optionId": 118,
+        "value": "May be"
+      },
+      {
+        "optionId": 119,
+        "value": "Yes"
+      },
+      {
+        "optionId": 120,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "Improving IoT - A BlockChain Approach"
+  },
+  {
+    "id": 31,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 9,
+    "questionOptions": [
+      {
+        "optionId": 121,
+        "value": "Poor"
+      },
+      {
+        "optionId": 122,
+        "value": "Ok"
+      },
+      {
+        "optionId": 123,
+        "value": "Good"
+      },
+      {
+        "optionId": 124,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Improving IoT - A BlockChain Approach"
+  },
+  {
+    "id": 32,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 9,
+    "questionOptions": [
+      {
+        "optionId": 125,
+        "value": "Poor"
+      },
+      {
+        "optionId": 126,
+        "value": "Ok"
+      },
+      {
+        "optionId": 127,
+        "value": "Good"
+      },
+      {
+        "optionId": 128,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Improving IoT - A BlockChain Approach"
+  },
+  {
+    "id": 1001,
+    "feedback": false,
+    "session": null,
+    "options": [],
+    "correctOption": 1012,
+    "description": "Nagios is a ....",
+    "sessionId": 9,
+    "questionOptions": [
+      {
+        "optionId": 1012,
+        "value": "Monitoring Tool"
+      },
+      {
+        "optionId": 1013,
+        "value": "Build Tool"
+      },
+      {
+        "optionId": 1014,
+        "value": "Both"
+      }
+    ],
+    "sessionName": "Improving IoT - A BlockChain Approach"
+  },
+  {
+    "id": 33,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 10,
+    "questionOptions": [
+      {
+        "optionId": 129,
+        "value": "Poor"
+      },
+      {
+        "optionId": 130,
+        "value": "Ok"
+      },
+      {
+        "optionId": 131,
+        "value": "Good"
+      },
+      {
+        "optionId": 132,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "MEAN Stack"
+  },
+  {
+    "id": 34,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 10,
+    "questionOptions": [
+      {
+        "optionId": 133,
+        "value": "No"
+      },
+      {
+        "optionId": 134,
+        "value": "May be"
+      },
+      {
+        "optionId": 135,
+        "value": "Yes"
+      },
+      {
+        "optionId": 136,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "MEAN Stack"
+  },
+  {
+    "id": 35,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 10,
+    "questionOptions": [
+      {
+        "optionId": 137,
+        "value": "Poor"
+      },
+      {
+        "optionId": 138,
+        "value": "Ok"
+      },
+      {
+        "optionId": 139,
+        "value": "Good"
+      },
+      {
+        "optionId": 140,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "MEAN Stack"
+  },
+  {
+    "id": 36,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 10,
+    "questionOptions": [
+      {
+        "optionId": 141,
+        "value": "Poor"
+      },
+      {
+        "optionId": 142,
+        "value": "Ok"
+      },
+      {
+        "optionId": 143,
+        "value": "Good"
+      },
+      {
+        "optionId": 144,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "MEAN Stack"
+  },
+  {
+    "id": 37,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 11,
+    "questionOptions": [
+      {
+        "optionId": 145,
+        "value": "Poor"
+      },
+      {
+        "optionId": 146,
+        "value": "Ok"
+      },
+      {
+        "optionId": 147,
+        "value": "Good"
+      },
+      {
+        "optionId": 148,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Edge Analytics"
+  },
+  {
+    "id": 38,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 11,
+    "questionOptions": [
+      {
+        "optionId": 149,
+        "value": "No"
+      },
+      {
+        "optionId": 150,
+        "value": "May be"
+      },
+      {
+        "optionId": 151,
+        "value": "Yes"
+      },
+      {
+        "optionId": 152,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "Edge Analytics"
+  },
+  {
+    "id": 39,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 11,
+    "questionOptions": [
+      {
+        "optionId": 153,
+        "value": "Poor"
+      },
+      {
+        "optionId": 154,
+        "value": "Ok"
+      },
+      {
+        "optionId": 155,
+        "value": "Good"
+      },
+      {
+        "optionId": 156,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Edge Analytics"
+  },
+  {
+    "id": 40,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 11,
+    "questionOptions": [
+      {
+        "optionId": 157,
+        "value": "Poor"
+      },
+      {
+        "optionId": 158,
+        "value": "Ok"
+      },
+      {
+        "optionId": 159,
+        "value": "Good"
+      },
+      {
+        "optionId": 160,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Edge Analytics"
+  },
+  {
+    "id": 1009,
+    "feedback": false,
+    "session": null,
+    "options": [],
+    "correctOption": 1042,
+    "description": "Which design pattern is being used in JUnit Testing with Mockito, Powermock and AssertJ frameworks to wrap the network call?",
+    "sessionId": 12,
+    "questionOptions": [
+      {
+        "optionId": 1040,
+        "value": "State"
+      },
+      {
+        "optionId": 1041,
+        "value": "Factory"
+      },
+      {
+        "optionId": 1042,
+        "value": "Command"
+      }
+    ],
+    "sessionName": "JUnit Testing with Mockito, Powermock and AssertJ frameworks"
+  },
+  {
+    "id": 41,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 13,
+    "questionOptions": [
+      {
+        "optionId": 161,
+        "value": "Poor"
+      },
+      {
+        "optionId": 162,
+        "value": "Ok"
+      },
+      {
+        "optionId": 163,
+        "value": "Good"
+      },
+      {
+        "optionId": 164,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Machine Learning - LOT"
+  },
+  {
+    "id": 42,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 13,
+    "questionOptions": [
+      {
+        "optionId": 165,
+        "value": "No"
+      },
+      {
+        "optionId": 166,
+        "value": "May be"
+      },
+      {
+        "optionId": 167,
+        "value": "Yes"
+      },
+      {
+        "optionId": 168,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "Machine Learning - LOT"
+  },
+  {
+    "id": 43,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 13,
+    "questionOptions": [
+      {
+        "optionId": 169,
+        "value": "Poor"
+      },
+      {
+        "optionId": 170,
+        "value": "Ok"
+      },
+      {
+        "optionId": 171,
+        "value": "Good"
+      },
+      {
+        "optionId": 172,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Machine Learning - LOT"
+  },
+  {
+    "id": 44,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 13,
+    "questionOptions": [
+      {
+        "optionId": 173,
+        "value": "Poor"
+      },
+      {
+        "optionId": 174,
+        "value": "Ok"
+      },
+      {
+        "optionId": 175,
+        "value": "Good"
+      },
+      {
+        "optionId": 176,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Machine Learning - LOT"
+  },
+  {
+    "id": 1010,
+    "feedback": false,
+    "session": null,
+    "options": [],
+    "correctOption": 1044,
+    "description": "Which one of the following nodes manages other nodes?",
+    "sessionId": 13,
+    "questionOptions": [
+      {
+        "optionId": 1043,
+        "value": "Data node"
+      },
+      {
+        "optionId": 1044,
+        "value": "Name node"
+      },
+      {
+        "optionId": 1060,
+        "value": "slave node"
+      },
+      {
+        "optionId": 1061,
+        "value": "None of these"
+      }
+    ],
+    "sessionName": "Machine Learning - LOT"
+  },
+  {
+    "id": 45,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 14,
+    "questionOptions": [
+      {
+        "optionId": 177,
+        "value": "Poor"
+      },
+      {
+        "optionId": 178,
+        "value": "Ok"
+      },
+      {
+        "optionId": 179,
+        "value": "Good"
+      },
+      {
+        "optionId": 180,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Future of Mobile Development with Kotlin & Swift"
+  },
+  {
+    "id": 46,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 14,
+    "questionOptions": [
+      {
+        "optionId": 181,
+        "value": "No"
+      },
+      {
+        "optionId": 182,
+        "value": "May be"
+      },
+      {
+        "optionId": 183,
+        "value": "Yes"
+      },
+      {
+        "optionId": 184,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "Future of Mobile Development with Kotlin & Swift"
+  },
+  {
+    "id": 47,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 14,
+    "questionOptions": [
+      {
+        "optionId": 185,
+        "value": "Poor"
+      },
+      {
+        "optionId": 186,
+        "value": "Ok"
+      },
+      {
+        "optionId": 187,
+        "value": "Good"
+      },
+      {
+        "optionId": 188,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Future of Mobile Development with Kotlin & Swift"
+  },
+  {
+    "id": 48,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 14,
+    "questionOptions": [
+      {
+        "optionId": 189,
+        "value": "Poor"
+      },
+      {
+        "optionId": 190,
+        "value": "Ok"
+      },
+      {
+        "optionId": 191,
+        "value": "Good"
+      },
+      {
+        "optionId": 192,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Future of Mobile Development with Kotlin & Swift"
+  },
+  {
+    "id": 1011,
+    "feedback": false,
+    "session": null,
+    "options": [],
+    "correctOption": 1062,
+    "description": "What processes are the best fit for RPA automation?",
+    "sessionId": 14,
+    "questionOptions": [
+      {
+        "optionId": 1015,
+        "value": "repetitive and consistent"
+      },
+      {
+        "optionId": 1016,
+        "value": "Don’t require constant human intervention."
+      },
+      {
+        "optionId": 1017,
+        "value": "high-volume and time-consuming"
+      },
+      {
+        "optionId": 1062,
+        "value": "All of the above"
+      }
+    ],
+    "sessionName": "Future of Mobile Development with Kotlin & Swift"
+  },
+  {
+    "id": 49,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 15,
+    "questionOptions": [
+      {
+        "optionId": 193,
+        "value": "Poor"
+      },
+      {
+        "optionId": 194,
+        "value": "Ok"
+      },
+      {
+        "optionId": 195,
+        "value": "Good"
+      },
+      {
+        "optionId": 196,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "What Next?"
+  },
+  {
+    "id": 50,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 15,
+    "questionOptions": [
+      {
+        "optionId": 197,
+        "value": "No"
+      },
+      {
+        "optionId": 198,
+        "value": "May be"
+      },
+      {
+        "optionId": 199,
+        "value": "Yes"
+      },
+      {
+        "optionId": 200,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "What Next?"
+  },
+  {
+    "id": 51,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 15,
+    "questionOptions": [
+      {
+        "optionId": 201,
+        "value": "Poor"
+      },
+      {
+        "optionId": 202,
+        "value": "Ok"
+      },
+      {
+        "optionId": 203,
+        "value": "Good"
+      },
+      {
+        "optionId": 204,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "What Next?"
+  },
+  {
+    "id": 52,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 15,
+    "questionOptions": [
+      {
+        "optionId": 205,
+        "value": "Poor"
+      },
+      {
+        "optionId": 206,
+        "value": "Ok"
+      },
+      {
+        "optionId": 207,
+        "value": "Good"
+      },
+      {
+        "optionId": 208,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "What Next?"
+  },
+  {
+    "id": 1012,
+    "feedback": false,
+    "session": null,
+    "options": [],
+    "correctOption": 1047,
+    "description": "What is the key differentiator between the traditional relational data base and Big data?",
+    "sessionId": 15,
+    "questionOptions": [
+      {
+        "optionId": 1045,
+        "value": "Number of cases"
+      },
+      {
+        "optionId": 1046,
+        "value": "Velocity of data"
+      },
+      {
+        "optionId": 1047,
+        "value": "Unstructured Data"
+      }
+    ],
+    "sessionName": "What Next?"
+  },
+  {
+    "id": 53,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 16,
+    "questionOptions": [
+      {
+        "optionId": 209,
+        "value": "Poor"
+      },
+      {
+        "optionId": 210,
+        "value": "Ok"
+      },
+      {
+        "optionId": 211,
+        "value": "Good"
+      },
+      {
+        "optionId": 212,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Hybrid Cloud"
+  },
+  {
+    "id": 54,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 16,
+    "questionOptions": [
+      {
+        "optionId": 213,
+        "value": "No"
+      },
+      {
+        "optionId": 214,
+        "value": "May be"
+      },
+      {
+        "optionId": 215,
+        "value": "Yes"
+      },
+      {
+        "optionId": 216,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "Hybrid Cloud"
+  },
+  {
+    "id": 55,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 16,
+    "questionOptions": [
+      {
+        "optionId": 217,
+        "value": "Poor"
+      },
+      {
+        "optionId": 218,
+        "value": "Ok"
+      },
+      {
+        "optionId": 219,
+        "value": "Good"
+      },
+      {
+        "optionId": 220,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Hybrid Cloud"
+  },
+  {
+    "id": 56,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 16,
+    "questionOptions": [
+      {
+        "optionId": 221,
+        "value": "Poor"
+      },
+      {
+        "optionId": 222,
+        "value": "Ok"
+      },
+      {
+        "optionId": 223,
+        "value": "Good"
+      },
+      {
+        "optionId": 224,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Hybrid Cloud"
+  },
+  {
+    "id": 1013,
+    "feedback": false,
+    "session": null,
+    "options": [],
+    "correctOption": 1008,
+    "description": "What is MindSphere?",
+    "sessionId": 16,
+    "questionOptions": [
+      {
+        "optionId": 1006,
+        "value": "GE Predix"
+      },
+      {
+        "optionId": 1007,
+        "value": "GE open IoT System"
+      },
+      {
+        "optionId": 1008,
+        "value": "Siemens open IoT System"
+      }
+    ],
+    "sessionName": "Hybrid Cloud"
+  },
+  {
+    "id": 57,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 8,
+    "questionOptions": [
+      {
+        "optionId": 225,
+        "value": "Poor"
+      },
+      {
+        "optionId": 226,
+        "value": "Ok"
+      },
+      {
+        "optionId": 227,
+        "value": "Good"
+      },
+      {
+        "optionId": 228,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Robot Framework (Keyword Driven - E2E Test Automation Framework)"
+  },
+  {
+    "id": 58,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 8,
+    "questionOptions": [
+      {
+        "optionId": 229,
+        "value": "No"
+      },
+      {
+        "optionId": 230,
+        "value": "May be"
+      },
+      {
+        "optionId": 231,
+        "value": "Yes"
+      },
+      {
+        "optionId": 232,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "Robot Framework (Keyword Driven - E2E Test Automation Framework)"
+  },
+  {
+    "id": 59,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 8,
+    "questionOptions": [
+      {
+        "optionId": 233,
+        "value": "Poor"
+      },
+      {
+        "optionId": 234,
+        "value": "Ok"
+      },
+      {
+        "optionId": 235,
+        "value": "Good"
+      },
+      {
+        "optionId": 236,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Robot Framework (Keyword Driven - E2E Test Automation Framework)"
+  },
+  {
+    "id": 60,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 8,
+    "questionOptions": [
+      {
+        "optionId": 237,
+        "value": "Poor"
+      },
+      {
+        "optionId": 238,
+        "value": "Ok"
+      },
+      {
+        "optionId": 239,
+        "value": "Good"
+      },
+      {
+        "optionId": 240,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Robot Framework (Keyword Driven - E2E Test Automation Framework)"
+  },
+  {
+    "id": 1014,
+    "feedback": false,
+    "session": null,
+    "options": [],
+    "correctOption": 1004,
+    "description": "In which programming language is it possible to return two values from one function?",
+    "sessionId": 15,
+    "questionOptions": [
+      {
+        "optionId": 1003,
+        "value": "Dart"
+      },
+      {
+        "optionId": 1004,
+        "value": "Google Go"
+      },
+      {
+        "optionId": 1005,
+        "value": "Rust"
+      }
+    ],
+    "sessionName": "Digital Twins"
+  },
+  {
+    "id": 61,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 17,
+    "questionOptions": [
+      {
+        "optionId": 241,
+        "value": "Poor"
+      },
+      {
+        "optionId": 242,
+        "value": "Ok"
+      },
+      {
+        "optionId": 243,
+        "value": "Good"
+      },
+      {
+        "optionId": 244,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Overview of Cryptocurrency"
+  },
+  {
+    "id": 62,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 17,
+    "questionOptions": [
+      {
+        "optionId": 245,
+        "value": "No"
+      },
+      {
+        "optionId": 246,
+        "value": "May be"
+      },
+      {
+        "optionId": 247,
+        "value": "Yes"
+      },
+      {
+        "optionId": 248,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "Overview of Cryptocurrency"
+  },
+  {
+    "id": 63,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 17,
+    "questionOptions": [
+      {
+        "optionId": 249,
+        "value": "Poor"
+      },
+      {
+        "optionId": 250,
+        "value": "Ok"
+      },
+      {
+        "optionId": 251,
+        "value": "Good"
+      },
+      {
+        "optionId": 252,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Overview of Cryptocurrency"
+  },
+  {
+    "id": 64,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 17,
+    "questionOptions": [
+      {
+        "optionId": 253,
+        "value": "Poor"
+      },
+      {
+        "optionId": 254,
+        "value": "Ok"
+      },
+      {
+        "optionId": 255,
+        "value": "Good"
+      },
+      {
+        "optionId": 256,
+        "value": "Excellent"
+      }
+    ],
+    "sessionName": "Overview of Cryptocurrency"
+  },
+  {
+    "id": 1015,
+    "feedback": false,
+    "session": null,
+    "options": [],
+    "correctOption": 1019,
+    "description": "For what purpose Appium is used?",
+    "sessionId": 17,
+    "questionOptions": [
+      {
+        "optionId": 1018,
+        "value": "Performance Testing"
+      },
+      {
+        "optionId": 1019,
+        "value": "Mobile Automation"
+      },
+      {
+        "optionId": 1020,
+        "value": "Integration Testing"
+      }
+    ],
+    "sessionName": "Overview of Cryptocurrency"
+  },
+  {
+    "id": 65,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 18,
+    "questionOptions": [
+      {
+        "optionId": 257,
+        "value": "Poor"
+      },
+      {
+        "optionId": 258,
+        "value": "Ok"
+      },
+      {
+        "optionId": 259,
+        "value": "Good"
+      },
+      {
+        "optionId": 260,
+        "value": "Very Good"
+      }
+    ],
+    "sessionName": "Let's Play"
+  },
+  {
+    "id": 66,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 18,
+    "questionOptions": [
+      {
+        "optionId": 261,
+        "value": "No"
+      },
+      {
+        "optionId": 262,
+        "value": "May be"
+      },
+      {
+        "optionId": 263,
+        "value": "Yes"
+      },
+      {
+        "optionId": 264,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "Let's Play"
+  },
+  {
+    "id": 67,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 18,
+    "questionOptions": [
+      {
+        "optionId": 265,
+        "value": "Poor"
+      },
+      {
+        "optionId": 266,
+        "value": "Ok"
+      },
+      {
+        "optionId": 267,
+        "value": "Good"
+      },
+      {
+        "optionId": 268,
+        "value": "Very Good"
+      }
+    ],
+    "sessionName": "Let's Play"
+  },
+  {
+    "id": 68,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 18,
+    "questionOptions": [
+      {
+        "optionId": 269,
+        "value": "Poor"
+      },
+      {
+        "optionId": 270,
+        "value": "Ok"
+      },
+      {
+        "optionId": 271,
+        "value": "Good"
+      },
+      {
+        "optionId": 272,
+        "value": "Very Good"
+      }
+    ],
+    "sessionName": "Let's Play"
+  },
+  {
+    "id": 1016,
+    "feedback": false,
+    "session": null,
+    "options": [],
+    "correctOption": 1050,
+    "description": "Which of the following is not a Let's Play?",
+    "sessionId": 18,
+    "questionOptions": [
+      {
+        "optionId": 1048,
+        "value": "MongoDB"
+      },
+      {
+        "optionId": 1049,
+        "value": "Cassandra"
+      },
+      {
+        "optionId": 1050,
+        "value": "SQL Server"
+      }
+    ],
+    "sessionName": "Let's Play"
+  },
+  {
+    "id": 69,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 19,
+    "questionOptions": [
+      {
+        "optionId": 273,
+        "value": "Poor"
+      },
+      {
+        "optionId": 274,
+        "value": "Ok"
+      },
+      {
+        "optionId": 275,
+        "value": "Good"
+      },
+      {
+        "optionId": 276,
+        "value": "Very Good"
+      }
+    ],
+    "sessionName": "Internet Beaming Drones"
+  },
+  {
+    "id": 70,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 19,
+    "questionOptions": [
+      {
+        "optionId": 277,
+        "value": "No"
+      },
+      {
+        "optionId": 278,
+        "value": "May be"
+      },
+      {
+        "optionId": 279,
+        "value": "Yes"
+      },
+      {
+        "optionId": 280,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "Internet Beaming Drones"
+  },
+  {
+    "id": 71,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 19,
+    "questionOptions": [
+      {
+        "optionId": 281,
+        "value": "Poor"
+      },
+      {
+        "optionId": 282,
+        "value": "Ok"
+      },
+      {
+        "optionId": 283,
+        "value": "Good"
+      },
+      {
+        "optionId": 284,
+        "value": "Very Good"
+      }
+    ],
+    "sessionName": "Internet Beaming Drones"
+  },
+  {
+    "id": 72,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 19,
+    "questionOptions": [
+      {
+        "optionId": 285,
+        "value": "Poor"
+      },
+      {
+        "optionId": 286,
+        "value": "Ok"
+      },
+      {
+        "optionId": 287,
+        "value": "Good"
+      },
+      {
+        "optionId": 288,
+        "value": "Very Good"
+      }
+    ],
+    "sessionName": "Internet Beaming Drones"
+  },
+  {
+    "id": 1017,
+    "feedback": false,
+    "session": null,
+    "options": [],
+    "correctOption": 1051,
+    "description": "Which are the main four elements of Kafka?",
+    "sessionId": 19,
+    "questionOptions": [
+      {
+        "optionId": 1051,
+        "value": "Topic, Producer, Consumer and Brokers"
+      },
+      {
+        "optionId": 1053,
+        "value": "Brokers, Queues, Event Handler and PIPE"
+      }
+    ],
+    "sessionName": "Internet Beaming Drones"
+  },
+  {
+    "id": 73,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate session overall?",
+    "sessionId": 20,
+    "questionOptions": [
+      {
+        "optionId": 289,
+        "value": "Poor"
+      },
+      {
+        "optionId": 290,
+        "value": "Ok"
+      },
+      {
+        "optionId": 291,
+        "value": "Good"
+      },
+      {
+        "optionId": 292,
+        "value": "Very Good"
+      }
+    ],
+    "sessionName": "Docker - The Great Container"
+  },
+  {
+    "id": 74,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "Do you think you can apply the information presented in the session?",
+    "sessionId": 20,
+    "questionOptions": [
+      {
+        "optionId": 293,
+        "value": "No"
+      },
+      {
+        "optionId": 294,
+        "value": "May be"
+      },
+      {
+        "optionId": 295,
+        "value": "Yes"
+      },
+      {
+        "optionId": 296,
+        "value": "For sure"
+      }
+    ],
+    "sessionName": "Docker - The Great Container"
+  },
+  {
+    "id": 75,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "For my experience level, the workshop was?",
+    "sessionId": 20,
+    "questionOptions": [
+      {
+        "optionId": 297,
+        "value": "Poor"
+      },
+      {
+        "optionId": 298,
+        "value": "Ok"
+      },
+      {
+        "optionId": 299,
+        "value": "Good"
+      },
+      {
+        "optionId": 300,
+        "value": "Very Good"
+      }
+    ],
+    "sessionName": "Docker - The Great Container"
+  },
+  {
+    "id": 76,
+    "feedback": true,
+    "session": null,
+    "options": [],
+    "correctOption": 0,
+    "description": "How do you rate the content of the session?",
+    "sessionId": 20,
+    "questionOptions": [
+      {
+        "optionId": 301,
+        "value": "Poor"
+      },
+      {
+        "optionId": 302,
+        "value": "Ok"
+      },
+      {
+        "optionId": 303,
+        "value": "Good"
+      },
+      {
+        "optionId": 304,
+        "value": "Very Good"
+      }
+    ],
+    "sessionName": "Docker - The Great Container"
+  }
+]

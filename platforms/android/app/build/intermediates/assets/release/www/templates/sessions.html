@@ -1,0 +1,39 @@
+<div class="vd_content clearfix" ng-controller="SessionCtrl">
+    <div class="vd_content-section clearfix pd-0">
+        <div class="row">
+            <div class="col-md-12 pd-0">
+                <div class="panel widget light-widget panel-bd-top">
+                    <div class="panel-heading no-title"></div>
+                    <div class="panel-body">
+                        <h3 class="mgtp--5"> Sessions</h3>
+
+                        <div class="content-list content-blog-small">
+                            <ul class="list-wrapper">
+                                <li ng-repeat="s in sessions">
+                                    <div id="anchor{{s.id}}" class="menu-icon"><img src="{{s.imageUrl}}"></div>
+                                    <div class="menu-text">
+                                        <h2 class="blog-title font-bold letter-xs"><a> {{s.name}}</a></h2>
+
+                                        <div class="menu-info">
+                                            <div class="menu-date font-xs">
+                                                <i class="icon-clock"></i> {{s.timeSlot}} -
+                                                <i class="fa fa-globe"></i> {{s.roomNumber}}
+                                            </div>
+                                        </div>
+                                        <div class="menu-tags  mgbt-xs-15"> By: <a><span
+                                                class="label vd_bg-yellow">{{s.presenterName}}</span></a>
+                                        </div>
+                                        <p>{{s.description}}</p>
+                                        <a class="btn vd_btn vd_bg-green btn-sm" ng-if="s.registered === false " data-ng-click="registerSession(s)">Register</a>
+                                        <a class="btn vd_btn vd_bg-red btn-sm" ng-if="s.registered === true " data-ng-click="unRegisterSession(s)">Un-Register</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

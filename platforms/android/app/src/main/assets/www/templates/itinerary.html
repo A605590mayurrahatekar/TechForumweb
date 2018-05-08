@@ -1,0 +1,139 @@
+<div class="vd_content clearfix">
+    <div class="vd_radio radio-success height-95">
+    <div class="pull-right  breadcrumb ">
+        Filter by:
+        <input type="radio" ng-model="roomNumber" nam="showAll" id="showAll" value="">&nbsp;
+        <label for="showAll"> All </label>
+        <input type="radio" ng-model="roomNumber" name="{{filterValues[0]}}" id="{{filterValues[0]}}"  value="{{filterValues[0]}}">
+        <label for="{{filterValues[0]}}"> {{filterValues[0]}} </label>
+        <input type="radio" ng-model="roomNumber" name="{{filterValues[1]}}" id="{{filterValues[1]}}"  value="{{filterValues[1]}}">
+        <label for="{{filterValues[1]}}"> {{filterValues[1]}} </label>
+        <input type="radio" ng-model="roomNumber" name="{{filterValues[2]}}" id="{{filterValues[2]}}"  value="{{filterValues[2]}}">
+        <label for="{{filterValues[2]}}"> {{filterValues[2]}} </label>
+        <input type="radio" ng-model="roomNumber" name="{{filterValues[3]}}" id="{{filterValues[3]}}"  value="{{filterValues[3]}}">
+        <label for="{{filterValues[3]}}"> {{filterValues[3]}} </label>
+        <input type="radio" ng-model="roomNumber" name="{{filterValues[4]}}" id="{{filterValues[4]}}"  value="{{filterValues[4]}}">
+        <label for="{{filterValues[4]}}"> {{filterValues[4]}} </label>
+        <input type="radio" ng-model="roomNumber" name="{{filterValues[5]}}" id="{{filterValues[5]}}"  value="{{filterValues[5]}}">
+        <label for="{{filterValues[5]}}"> {{filterValues[5]}} </label>
+        <input type="radio" ng-model="roomNumber" name="{{filterValues[6]}}" id="{{filterValues[6]}}"  value="{{filterValues[6]}}">
+        <label for="{{filterValues[6]}}"> {{filterValues[6]}} </label>
+        <input type="radio" ng-model="roomNumber" name="{{filterValues[7]}}" id="{{filterValues[7]}}"  value="{{filterValues[7]}}">
+        <label for="{{filterValues[7]}}"> {{filterValues[7]}} </label>
+        <input type="radio" ng-model="roomNumber" name="{{filterValues[8]}}" id="{{filterValues[8]}}"  value="{{filterValues[8]}}">
+        <label for="{{filterValues[8]}}"> {{filterValues[8]}} </label>
+    </div>
+    </div>
+    <div class="vd_content-section clearfix it-align">
+
+        <div class="panel-body pd-0">
+
+            <div class="panel-body-list pd-0">
+
+                <ul class="vd_timeline">
+                    <li class="tl-item tl-item-year">
+                        <div class="tl-year">Itinerary</div>
+                    </li>
+                    <li class="tl-item" ng-repeat="roomSession in allRoomsSession | filter : roomNumber">
+                        <div class="tl-icon success tl-iti-icon " ng-class="$even ? 'even':'odd'">
+                            {{roomSession[0].roomNumber}}
+                        </div>
+                        <div class="tl-label panel widget light-widget "
+                             ng-class="$even ? 'panel-bd-left-even':'panel-bd-left-odd'">
+                            <div class="panel-body pd-5 mgb-0" ng-repeat="session in roomSession | filter : roomNumber">
+                                <div class="panel widget bg-green-hover pd-0">
+                                    <div class="panel-heading no-title pd-0"></div>
+                                    <div class="panel-body pd-5 " ng-class="session.registered ? 'vd_bg-twitter ' :'vd_bg-facebook'">
+                                        <div class="content-list menu-action-right it-content-align ">
+                                            <div>
+                                                <ul class="list-wrapper pd-0">
+                                                    <li class="pd-0">
+                                                        <div class="menu-text">
+                                                            <a class="vd_white" href="#/sessions/id/{{session.id}}"><h3
+                                                                    class="mgbt-xs-5"> {{session.name}}
+                                                            </h3></a>
+                                                        </div>
+                                                        <div class="menu-text">
+                                                            <div class="menu-info vd_white">
+                                                                at <a class="vd_white">{{session.timeSlot}}</a> -
+                                                                by <a class="vd_white">{{session.presenterName}}</a>
+                                                                - <a class="btn btn-sm vd_round-btn vd_bg-pink  vd_white mgr-5" data-ng-click="registerTeaserVote(session.id)"><i class="fa fa-heart-o"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="menu-action">
+                                                            <div ng-if="session.registered === false " class="menu-action-icon vd_yellow"
+                                                                 data-original-title="Approve"
+                                                                 data-rel="tooltip-bottom" data-ng-click="registerSession(session,roomSession[0].roomNumber)">
+                                                                <i class="font-20 fa fa-check"></i>
+                                                            </div>
+                                                            <div ng-if="session.registered === true " class="menu-action-icon vd_red"
+                                                                 data-original-title="Reject" data-rel="tooltip-bottom" data-ng-click="unRegisterSession(session,roomSession[0].roomNumber)">
+                                                                <i class="font-20 fa fa-times"></i>
+                                                            </div>
+                                                            <div data-ng-click="goToSurvey(session.id)" ng-if="session.registered === true " class="menu-action-icon vd_white">
+                                                                <i class="font-20 fa fa-comments-o"></i>
+                                                            </div>
+                                                            <!-- <div data-ng-click="goToChallenge(session.id)"  ng-if="session.registered === true " class="menu-action-icon vd_white">
+                                                                <i class="font-20 fa fa-trophy"></i>
+                                                            </div> -->
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <!--<div class="tl-icon success tl-iti-icon">TR01</div>-->
+                        <!--<div class="tl-label panel widget light-widget panel-bd-left">-->
+                        <!--<div class="panel-body pd-5" ng-repeat="session in tr01Sessions">-->
+                        <!--<div class="panel widget dark-widget  ">-->
+                        <!--<div class="panel-body  vd_bg-blue pd-10">-->
+                        <!--<div class="content-list content-image menu-action-right pd-0">-->
+                        <!--<div data-rel="scroll" data-scrollheight="550">-->
+                        <!--<ul class="list-wrapper pd-0">-->
+                        <!--<li class="pd-0">-->
+                        <!--<div class="menu-text">-->
+                        <!--<h3 class="mgbt-xs-5"> {{session.name}}-->
+                        <!--</h3>-->
+                        <!--</div>-->
+                        <!--<div class="menu-text">-->
+                        <!--<div class="menu-info">-->
+                        <!--at <a class="vd_white">{{session.timeSlot}}</a> - -->
+                        <!--by <a class="vd_white">{{session.presenterName}}</a>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="menu-action">-->
+                        <!--<div class="menu-action-icon vd_green"-->
+                        <!--data-original-title="Approve"-->
+                        <!--data-rel="tooltip-bottom">-->
+                        <!--<i class="fa fa-check"></i>-->
+                        <!--</div>-->
+                        <!--<div class="menu-action-icon vd_red"-->
+                        <!--data-original-title="Reject" data-rel="tooltip-bottom">-->
+                        <!--<i class="fa fa-times"></i>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+
+                        <!--</div>-->
+                        <!--</div>-->
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+

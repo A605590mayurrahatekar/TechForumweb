@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title data-ng-bind="pageTitle"></title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-entypo.css" rel="stylesheet" type="text/css">
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/theme.min.css" rel="stylesheet" type="text/css">
+    <link href="css/chrome.css" rel="stylesheet" type="text/chrome">
+    <link href="css/theme-responsive.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/fullcalendar.css" rel="stylesheet" type="text/css">
+    <link href="css/angular-input-stars.css" rel="stylesheet">
+    <link href="lib/angular-notify/angular-notify.min.css" rel="stylesheet">
+
+
+
+</head>
+
+<body
+        class="full-layout nav-small nav-top-fixed  no-nav-right responsive remove-navbar nav-right-hide"
+        data-active="dashboard " data-smooth-scrolling="1" data-ng-init="navBar=true"
+        ng-class="navBar ? 'nav-left-hide' : 'aa'">
+
+<header class="header-1" id="header" data-ng-controller="HeaderCtrl" data-ng-cloak>
+    <div class="vd_top-menu-wrapper">
+        <div class="container ">
+            <div class="vd_top-nav vd_nav-width  ">
+                <div class="vd_panel-header">
+                    <div class="logo">
+                        <a href="#/home"><img alt="logo" src="img/logo/Techforum-2017-india-1.png"></a>
+                        <!--<a href="/#/"><h3>TechForum</h3></a>-->
+                    </div>
+                    <!-- logo -->
+                    <div class="vd_panel-menu  hidden-sm hidden-xs">
+                                <span class="nav-medium-button menu" data-toggle="tooltip"
+                                      data-placement="bottom" data-original-title="Medium Nav Toggle"
+                                      data-action="nav-left-medium" data-ng-click="showSideNavBar()">
+                                <i class="fa fa-bars"></i>
+                                </span>
+                        <!--<span class="nav-small-button menu" data-toggle="tooltip" data-placement="bottom"-->
+                        <!--data-original-title="Small Nav Toggle" data-action="nav-left-small" data-ng-click="showSideNavBar()">-->
+                        <!--<i class="fa fa-ellipsis-v"></i>-->
+                        <!--</span>-->
+                    </div>
+                    <div class="vd_panel-menu left-pos visible-sm visible-xs">
+                                <span class="menu" data-ng-click="toggleNavBar()">
+                                <i class="fa fa-ellipsis-v"></i>
+                                </span>
+                    </div>
+                    <!--<div class="vd_panel-menu visible-sm visible-xs">
+                                <span class="menu visible-xs" data-action="submenu" >
+                                <i class="fa fa-bars"></i>
+                                </span>
+                    </div>-->
+                    <!-- vd_panel-menu -->
+                </div>
+                <!-- vd_panel-header -->
+            </div>
+            <div class="vd_container">
+                <div class="row" data-ng-cloak>
+                    <div class="col-sm-5 col-xs-12">
+                        &nbsp;
+                    </div>
+                    <div class="col-sm-7 col-xs-12">
+                        <div class="vd_mega-menu-wrapper">
+                            <div class="vd_mega-menu pull-right">
+                                <ul class="mega-ul">
+                                   <!-- <li id="top-menu-3" class="one-icon mega-li">
+                                        <a class="mega-link" data-action="click-trigger">
+                                            <span class="mega-icon"><i class="fa fa-globe"></i></span>
+                                            <span ng-if="newEventNotification" class="badge vd_bg-red"><i
+                                                    class="fa fa-envelope"></i> </span>
+                                        </a>
+
+                                        <div class="vd_mega-menu-content  width-xs-3 width-sm-4  center-xs-3 left-sm"
+                                             data-action="click-target">
+                                            <div class="child-menu">
+                                                <div class="title">
+                                                    Notifications
+                                                    <div class="vd_panel-menu">
+                                                                <span data-original-title="Notification Setting"
+                                                                      data-toggle="tooltip" data-placement="bottom"
+                                                                      class="menu">
+                                                                <i class="fa fa-cog"></i>
+                                                                </span>
+                                                        &lt;!&ndash;                     <span class="text-menu" data-original-title="Settings" data-toggle="tooltip" data-placement="bottom">
+                                                            Settings
+                                                            </span> &ndash;&gt;
+                                                    </div>
+                                                </div>
+                                                <div class="content-list">
+                                                    <div data-rel="scroll">
+                                                        <ul class="list-wrapper pd-lr-10">
+                                                            <li ng-repeat="notification in eventNotifications">
+                                                                <a>
+                                                                    <div class="menu-icon "
+                                                                         ng-class="(notification.messageType == 'alert-danger') ? 'vd_red' : 'vd_green' ">
+                                                                        <i
+                                                                                class="fa "
+                                                                                ng-class="(notification.messageType == 'alert-danger') ? 'fa-exclamation' : 'fa-check' "></i>
+                                                                    </div>
+                                                                    <div class="menu-text">
+                                                                        {{notification.message}}
+                                                                        <div class="menu-info"><span class="menu-date">&nbsp;</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            &lt;!&ndash; child-menu &ndash;&gt;
+                                        </div>
+                                        &lt;!&ndash; vd_mega-menu-content &ndash;&gt;
+                                    </li>-->
+                                    <li id="top-menu-profile" class="profile mega-li" data-ng-cloak >
+                                        <a data-ng-init="topMenu = false" class="mega-link "  data-action="click-trigger">
+                                                <span class="mega-name">
+                                                {{user.name}}<!-- <i class="fa fa-caret-down fa-fw"></i>-->
+                                                </span>
+                                        </a>
+
+                                        <!--<div class="vd_mega-menu-content  width-xs-2  left-xs left-sm"
+                                             data-action="click-target" data-ng-class="topMenu ? 'top-nav-mega-link-open' : 'top-nav-mega-link-close'">
+                                            <div class="child-menu">
+                                                <div class="content-list content-menu">
+                                                    <ul class="list-wrapper pd-lr-10" data-ng-if="userExists">
+                                                        <li >
+                                                            <a href="/#/">
+                                                                <div class="menu-icon"><i class=" fa fa-envelope"></i>
+                                                                </div>
+                                                                <div class="menu-text">Messages</div>
+                                                                <div class="menu-badge">
+                                                                    <div class="badge vd_bg-red">10</div>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li class="line"></li>
+                                                        <li>
+                                                            <a data-ng-click="markMyAttendance()">
+                                                                <div class="menu-icon"><i class=" fa fa-lock
+                                                                            "></i></div>
+                                                                <div class="menu-text">Mark My Attendance</div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/#/">
+                                                                <div class="menu-icon"><i class=" fa fa-cogs"></i></div>
+                                                                <div class="menu-text">Settings</div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/#/">
+                                                                <div class="menu-icon"><i class="  fa fa-key"></i></div>
+                                                                <div class="menu-text">Lock</div>
+                                                            </a>
+                                                        </li>
+                                                        <li data-ng-click="logout()">
+                                                            <a>
+                                                                <div class="menu-icon"><i class=" fa fa-sign-out"></i>
+                                                                </div>
+                                                                <div class="menu-text">Sign Out</div>
+                                                            </a>
+                                                        </li>
+                                                        <li class="line"></li>
+                                                        <li>
+                                                            <a data-ng-click="showHelp()">
+                                                                <div class="menu-icon"><i
+                                                                        class=" fa fa-question-circle"></i></div>
+                                                                <div class="menu-text">Help</div>
+                                                            </a>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>-->
+                                    </li>
+                                    <!--<li id="top-menu-settings" class="hidden-xs hidden-sm mega-li" data-ng-if="userExists">
+                                                <span class="btn btn-default btn-xs remove-navbar" data-toggle="tooltip"
+                                                      data-action="remove-navbar">
+                                                                            <i class="fa fa-arrows-h"></i>
+                                                                            </span>
+
+
+                                    </li>-->
+                                </ul>
+                                <!-- Head menu search form ends -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="vd_top-nav vd_top-nav-tab ">
+                <div class="vd_panel-header div-align-center">
+
+                    <div class="tabs">
+                        <ul class="nav nav-pills widget  ">
+                            <li> <a href="#/mysession" > <span class="menu-icon"><i class="fa fa-flag"></i></span></a></li>
+                            <li> <a href="#/itinerary" > <span class="menu-icon"><i class="fa fa-calendar"></i></span> </a></li>
+                            <li> <a href="#/sessions" > <span class="menu-icon"><i class="fa fa-bullhorn"></i></span> </a></li>
+                            <li> <a href="#/speakers" > <span class="menu-icon"><i class="fa fa-microphone"></i></span> </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- container -->
+    </div>
+    <!-- vd_primary-menu-wrapper -->
+</header>
+<div class="full-layout vd_body">
+    <div class="content" data-ng-cloak>
+        <div class="container">
+            <div data-ng-controller="MenuCtrl">
+                <div class="vd_navbar vd_nav-width vd_navbar-tabs-menu vd_navbar-left  " >
+
+                    <div class="navbar-menu clearfix">
+                        <div class="vd_menu">
+                            <ul>
+                                <li ng-repeat="menuItem in menuItems">
+                                    <a data-ng-click="go(menuItem.route)">
+                                        <span class="menu-icon"><i class="fa " ng-class="menuItem.iconClass"></i></span>
+                                        <span class="menu-text">{{menuItem.displayText}}</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-ng-click="markMyAttendance()">
+                                        <span class="menu-icon"><i class="fa fa fa-map-marker" ></i></span>
+                                        <span class="menu-text">Mark My Attendance</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-ng-click="go('/login')">
+                                        <span class="menu-icon"><i class="fa fa fa-sign-out" ></i></span>
+                                        <span class="menu-text">Logout</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- Head menu search form ends -->
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="vd_content-wrapper vd_main_content">
+            	
+                <div ui-view class="vd_container" data-ng-click="toggleNavBar()">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-1"  id="footer">
+        <div class="vd_bottom ">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-xs-12">
+                        <center>
+                        <div class="copyright">
+                            <img src="img/logo/Worldline-E-Payment-Services_White_Cropped.png"/>
+                        </div>
+                        </center>
+                    </div>
+                </div>
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </div>
+    </footer>
+    <a id="back-top" href="#" data-action="backtop" class="vd_back-top visible"> <i class="fa  fa-angle-up"> </i> </a>
+
+</div>
+<script src='cordova.js'></script>
+<script data-main="js/main" src="lib/js/require.js"></script>
+<script type="text/javascript" src="lib/js/theme/jquery.js"></script>
+<script type="text/javascript" src="lib/js/theme/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="lib/js/theme/plugins.js"></script>
+<script type="text/javascript" src="lib/js/theme/breakpoints/breakpoints.js"></script>
+<script type="text/javascript" src="lib/js/theme/theme.js"></script>
+
+</body>
+</html>

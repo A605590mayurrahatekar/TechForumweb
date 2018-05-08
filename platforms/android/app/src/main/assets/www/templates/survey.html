@@ -1,0 +1,46 @@
+<div class="vd_content clearfix" data-ng-if="!techForumDay">
+    <div class="vd_content-section clearfix">
+        <div class="row">
+            <div class="col-md-12 overlay">
+                <div class="cs-container">
+                    <img src="img/paperplane.png" alt="Paper Plane" class="image-align"/>
+
+                    <p><span class="yellow">This page will be live on 1st June 2018.</span></p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="vd_content clearfix" data-ng-if="techForumDay">
+    <div class="vd_content-section clearfix">
+        <div class="panel widget light-widget panel-bd-top vd_bdt-blue" ng-repeat="session in sessionSurvey">
+            <div id="anchor{{session.sessionId}}"  class="panel-heading pd-5">
+                <a href="#/sessions/id/{{session.sessionId}}">
+                    <h3 class="mgbt-xs-5"> {{session.sessionName}}</h3>
+                </a>
+            </div>
+            <div class="panel-body  pd-5">
+                <div class="content-list menu-action-right pd-0 ">
+                    <div>
+                        <ul class="list-wrapper pd-0">
+                            <li class="pd-0" ng-repeat="question in session.details">
+                                <div class="menu-info testimonial-word-wrapper">
+                                    {{question.questionDescription}}
+                                </div>
+                                <div class="menu-action">
+                                    
+                                        <input-stars max="4" class="menu-rating vd_yellow" icon-full="fa-star" icon-base="" icon-empty="fa-star-o"
+                                                 ng-model="question.starProp" data-ng-click="rateSession(question)"/>
+                                        </input-stars>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

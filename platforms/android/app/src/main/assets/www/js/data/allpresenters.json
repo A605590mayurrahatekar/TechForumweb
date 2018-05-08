@@ -1,0 +1,404 @@
+[
+  {
+    "id": 1,
+    "name": "Rahul Jain",
+    "description": "Rahul Jain",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/1.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 1,
+        "presenters": null,
+        "users": null,
+        "name": "Atos Intelligent Automation Platform (AIAP)",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/1.png",
+        "description": "Cognitive automation for improving productivity via self-learning knowledge processes.",
+        "roomNumber": "TR01",
+        "timeSlot": "11:50 AM",
+        "presenterDtos": null
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Veer Anand & Pravinkumar Kadukar",
+    "description": "Veer Anand & Pravinkumar Kadukar",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/2.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 2,
+        "presenters": null,
+        "users": null,
+        "name": "Functional Programming",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/2.png",
+        "description": "Functional Programming",
+        "roomNumber": "TR02",
+        "timeSlot": "11:50 AM",
+        "presenterDtos": null
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Dhrubajyoti Bhattacharjee & Madhavi Khedekar",
+    "description": "Dhrubajyoti Bhattacharjee & Madhavi Khedekar",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/3.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 3,
+        "presenters": null,
+        "users": null,
+        "name": "Introduction to Chatbots",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/3.png",
+        "description": "The loudest buzzword that we hear around. Every enterprise is suddenly jumping on this bot bandwagon. But why? What is, actually this chatbot? How do we build one for us? We will answer all these in our presentation. We would showcase how simple it is to develop a powerful yet user-friendly chatbot.",
+        "roomNumber": "TR03",
+        "timeSlot": "11:50 AM",
+        "presenterDtos": null
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Supriya Kshirsagar & Raju Kandukuri",
+    "description": "Supriya Kshirsagar & Raju Kandukuri",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/4.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 4,
+        "presenters": null,
+        "users": null,
+        "name": "The UFT Runtime Engine is a slimmer installation of UFT that enables you to run UFT tests without the entire UFT IDE.",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/4.png",
+        "description": "The paper would discuss the different approaches that would help accomplish enhanced business value with QA programs, Distinguish a traditional QA project from the business value with QA programs.",
+        "roomNumber": "TR04",
+        "timeSlot": "11:50 AM",
+        "presenterDtos": null
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Rajendra Upadhyaya & Smita Amberkar",
+    "description": "Rajendra Upadhyaya & Smita Amberkar",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/5.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 5,
+        "presenters": null,
+        "users": null,
+        "name": "Analytics of Things (AoT)",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/5.png",
+        "description": "​ADF provides a comprehensive visual development environment that empowers these developers and business analysts to rapidly create analytics solutions using visual models that require little or no coding",
+        "roomNumber": "TR01",
+        "timeSlot": "12:45 PM",
+        "presenterDtos": null
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Ravindra More & Minal Karale",
+    "description": "Ravindra More & Minal Karale",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/6.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 6,
+        "presenters": null,
+        "users": null,
+        "name": "Going Reactive with Spring WebFlux Framework",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/6.png",
+        "description": "Spring 5 has embraced reactive programming paradigm by introducing a brand new reactive framework called Spring WebFlux.",
+        "roomNumber": "TR02",
+        "timeSlot": "12:45 PM",
+        "presenterDtos": null
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Kedar Joglekar",
+    "description": "Kedar Joglekar",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/15.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 7,
+        "presenters": null,
+        "users": null,
+        "name": "Digital Twins",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/15.png",
+        "description": "Digital Twins",
+        "roomNumber": "TR03",
+        "timeSlot": "12:45 PM",
+        "presenterDtos": null
+      }
+    ]
+  }
+  ,
+  {
+    "id": 8,
+    "name": "Deepali Lehri & Vasudeo Parab",
+    "description": "Deepali Lehri & Vasudeo Parab",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/8.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 8,
+        "presenters": null,
+        "users": null,
+        "name": "Robot Framework (Keyword Driven - E2E Test Automation Framework)",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/8.png",
+        "description": "Robot Framework is a open source software , keyword-driven test automation framework, written in Python and runs on Jython (JVM) and IronPython (.NET).",
+        "roomNumber": "TR04",
+        "timeSlot": "12:45 PM",
+        "presenterDtos": null
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Mishra Nimit & Ashish Koranga",
+    "description": "Mishra Nimit & Ashish Koranga",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/9.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 9,
+        "presenters": null,
+        "users": null,
+        "name": "Improving IoT - A BlockChain Approach",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/9.png",
+        "description": "We are going to present a decentralised approach which can be implemented for enhancing security and trust for the IoT ecosystem using BlockChain technology.",
+        "roomNumber": "TR01",
+        "timeSlot": "2:20 PM",
+        "presenterDtos": null
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Juhi Udhale & Vishal Arthamwar",
+    "description": "Juhi Udhale & Vishal Arthamwar",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/10.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 10,
+        "presenters": null,
+        "users": null,
+        "name": "MEAN Stack",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/10.png",
+        "description": "MEAN Stack",
+        "roomNumber": "TR02",
+        "timeSlot": "2:20 PM",
+        "presenterDtos": null
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Kiran Gharat",
+    "description": "Kiran Gharat",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/11.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 11,
+        "presenters": null,
+        "users": null,
+        "name": "Edge Analytics",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/11.png",
+        "description": "Edge Analytics",
+        "roomNumber": "TR03",
+        "timeSlot": "2:20 PM",
+        "presenterDtos": null
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Laxman More & Mangesh Kumbhar",
+    "description": "Laxman More & Mangesh Kumbhar",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/12.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 12,
+        "presenters": null,
+        "users": null,
+        "name": "JUnit Testing with Mockito, Powermock and AssertJ frameworks",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/12.png",
+        "description": "JUnit Testing with Mockito, Powermock and AssertJ frameworks",
+        "roomNumber": "TR04",
+        "timeSlot": "2:20 PM",
+        "presenterDtos": null
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Reetu Shinde & Ajit Kokane",
+    "description": "Reetu Shinde & Ajit Kokane",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/13.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 13,
+        "presenters": null,
+        "users": null,
+        "name": "Machine Learning - LOT",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/13.png",
+        "description": "Machine Learning is the field of study that gives computers the ability to learn without being explicitly programmed.",
+        "roomNumber": "TR01",
+        "timeSlot": "3:15 PM",
+        "presenterDtos": null
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Nikita Kaza & Nikunj Jain",
+    "description": "Nikita Kaza & Nikunj Jain",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/14.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 14,
+        "presenters": null,
+        "users": null,
+        "name": "Future of Mobile Development with Kotlin & Swift",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/14.png",
+        "description": "Future of Mobile Development with Kotlin & Swift",
+        "roomNumber": "TR02",
+        "timeSlot": "3:15 PM",
+        "presenterDtos": null
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Zillur Rahman  & Vijay Varade",
+    "description": "Zillur Rahman  & Vijay Varade",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/7.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 15,
+        "presenters": null,
+        "users": null,
+        "name": "What Next?",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/7.png",
+        "description": "What Next?",
+        "roomNumber": "TR03",
+        "timeSlot": "03:15 PM",
+        "presenterDtos": null
+      }
+    ]
+  }
+  ,
+  {
+    "id": 16,
+    "name": "Manish Parikh",
+    "description": "Manish Parikh",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/16.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 16,
+        "presenters": null,
+        "users": null,
+        "name": "Hybrid Cloud",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/16.png",
+        "description": "Public Cloud,Private cloud,Integrated systems",
+        "roomNumber": "TR04",
+        "timeSlot": "3:15 PM",
+        "presenterDtos": null
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Satendra Singh & Tejaswini Patil",
+    "description": "Satendra Singh & Tejaswini Patil",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/17.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 17,
+        "presenters": null,
+        "users": null,
+        "name": "Overview of Cryptocurrency",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/17.png",
+        "description": "​A cryptocurrency (or crypto currency) is a digital asset designed to work as a medium of exchange that uses cryptography to secure its transactions, to control the creation of additional units, and to verify the transfer of assets.",
+        "roomNumber": "TR01",
+        "timeSlot": "4:30 PM",
+        "presenterDtos": null
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Abhijit Gurav",
+    "description": "Abhijit Gurav",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/18.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 18,
+        "presenters": null,
+        "users": null,
+        "name": "Let's Play",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/18.png",
+        "description": "A fun approach to learn any language :)",
+        "roomNumber": "TR02",
+        "timeSlot": "4:30 PM",
+        "presenterDtos": null
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Ishita Dubey & Hemant Saindane",
+    "description": "Ishita Dubey & Hemant Saindane",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/19.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 19,
+        "presenters": null,
+        "users": null,
+        "name": "Internet Beaming Drones",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/19.png",
+        "description": "Internet Beaming Drones is a mission of providing internet access to world wide including rural and remote areas",
+        "roomNumber": "TR03",
+        "timeSlot": "4:30 PM",
+        "presenterDtos": null
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Pratigyan Manjhi & Neeraj Nair",
+    "description": "Pratigyan Manjhi & Neeraj Nair",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/20.png",
+    "sessions": null,
+    "sessionDtos": [
+      {
+        "id": 20,
+        "presenters": null,
+        "users": null,
+        "name": "Docker - The Great Container",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/20.png",
+        "description": "Docker Basics and Concepts",
+        "roomNumber": "TR04",
+        "timeSlot": "4:30 PM",
+        "presenterDtos": null
+      }
+    ]
+  }
+]

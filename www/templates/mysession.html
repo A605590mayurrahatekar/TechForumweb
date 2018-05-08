@@ -1,0 +1,73 @@
+<div class="vd_content clearfix">
+    <div class="vd_content-section clearfix">
+        <div class="row">
+            <div class="col-md-12 pd-0">
+                <div class="panel-body pd-0" id="myschedule">
+                    <div class="panel-body-list">
+                        <ul class="vd_timeline">
+                            <li class="tl-item tl-item-year padding-bottom-65">
+                                <div class="tl-year">My Schedule</div>
+                            </li>
+                            <li class="tl-item tl-item-date">
+                                <div class="tl-date">10:30</div>
+                                <div class="tl-label panel widget light-widget panel-bd-left">
+                                    <div class="panel-body">
+
+                                        <h3 class="mgbt-xs-5"> Opening Note
+                                        </h3>
+
+                                        <p class="mgbt-xs-5"> Opening Note & Teaser Round</p>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tl-item" ng-repeat="session in mySessions">
+                                <div class="tl-icon success">{{session.timeSlot}}</div>
+                                <div class="tl-label panel widget light-widget panel-bd-left">
+                                    <div class="panel-body"><img class="tl-img img-right img-circle  mgtp-5"
+                                                                 src="img/default_session.png">
+
+                                        <h3 class="mgbt-xs-5"> {{session.name}}
+                                        </h3>
+                        <span class="vd_soft-grey">
+                          <a>{{session.roomNumber}}</a> -
+                          by <a>{{session.presenterName}}</a>
+                        </span>
+
+                                        <p class="mgbt-xs-5"> {{session.description}}</p>
+
+                                        <div class="tl-action"><a role="button" class="btn btn-sm mgr-10"
+                                                                  href="javascript:void(0)"><i
+                                                class="fa fa-thumbs-up fa-fw"></i> Like (10)</a>
+                                            <a role="button" class="btn btn-sm mgr-10"
+                                               data-ng-click="goToSurvey(session.id)" ><i
+                                                    class="fa fa-comments-o fa-fw"></i> Feedback</a>
+                                            <!-- <a role="button" class="btn btn-sm mgr-10"
+                                               data-ng-click="goToChallenge(session.id)"><i
+                                                    class="fa fa-trophy fa-fw"></i> Challenge</a></div> -->
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tl-item tl-item-date">
+                                <div class="tl-date">17:30</div>
+                                <div class="tl-label panel widget light-widget panel-bd-left">
+                                    <div class="panel-body">
+                                        <h3 class="mgbt-xs-5"> Closing Note
+                                        </h3>
+
+                                        <p class="mgbt-xs-5">Conclusion & Prize Distribution</p>
+
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="btn btn-primary pull-right" ng-print print-element-id="myschedule"><i class="fa fa-print"></i></button>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
