@@ -123,7 +123,7 @@
     "id": 7,
     "name": "Kedar Joglekar",
     "description": "Kedar Joglekar",
-    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/15.png",
+    "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/profiles/7.png",
     "sessions": null,
     "sessionDtos": [
       {
@@ -131,7 +131,7 @@
         "presenters": null,
         "users": null,
         "name": "Digital Twins",
-        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/15.png",
+        "imageUrl": "http://techforumportal-techforumexplore.7e14.starter-us-west-2.openshiftapps.com/images/presentations/7.png",
         "description": "Digital Twins",
         "roomNumber": "TR03",
         "timeSlot": "12:45 PM",
